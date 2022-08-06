@@ -1019,18 +1019,6 @@ footer {
   margin-top: 10px;
 }
 
-.textoNoticia {
-  color: #dfdfdf;
-  text-align: center;
-  margin: 15px;
-}
-
-
-
-.main-carusel-imagen {
-  height: 400px;
-  object-fit: cover;
-}
 
 a {
   text-decoration: none;

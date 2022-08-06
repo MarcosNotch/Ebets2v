@@ -14,7 +14,8 @@ const GameListContainer = () => {
         headers: {
           Accept: 'application/json',
           Authorization: 'Bearer XWS-8fq_iLTuPxxhHElTYS_hm_ltFPSQ1ZvK2OqQq3mEo4lREZo'
-        }
+        },
+   
       };
 
       fetch('https://api.pandascore.co/valorant/matches/upcoming?sort=begin_at&page=1&per_page=12', options)
