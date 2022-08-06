@@ -1,0 +1,1246 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+header, footer , nav{
+  background-color: #181a20;
+}
+
+body{
+  background-color: #0b0e11;
+}
+
+
+
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100%;
+}
+
+.logo {
+  width: 107px;
+  height: 38px;
+  margin-left: 10px;
+
+  transition: transform 200ms;
+
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.margin-izquierda{
+  margin-left: auto;
+}
+
+.botonInicio {
+  width: 90px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #be32f5;
+  font-weight: 500;
+  color: white;
+}
+
+hr{
+  color: white;
+}
+
+.botonInicio2 {
+  width: 360px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #be32f5;
+  font-weight: 500;
+  color: white;
+}
+
+
+.botonInicio-google{
+  width: 360px;
+  height: 50px;
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  background-color: white;
+}
+
+.botonInicio-google p {
+  color:#393939
+}
+
+
+.botonApostar {
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #be32f5;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+ 
+}
+
+.botonReinicio {
+  width: 120px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #be32f5;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+ 
+}
+
+
+.popup .botonApostar {
+  transition: .3s ease all;
+}
+
+.popup .botonApostar:hover {
+  background-color: #c761f0;
+}
+
+
+.header-sombra{
+  box-shadow: 1px 1px 5px;
+  color: black;
+}
+
+.botonVivo {
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #9147ff;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+}
+
+.popup .botonVivo{
+  transition: .3s ease all;
+}
+
+
+.popup .botonVivo:hover{
+  background-color: #9e68f0;
+}
+
+.listaMenu {
+
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sesion {
+
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #dfdfdf;
+  text-align: center;
+}
+
+h1 {
+  color: #dfdfdf;
+  text-align: center;
+}
+
+.carusel {
+  text-align: center;
+  height: 350px;
+}
+
+.container-proximos-partidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carusel img {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.link-nav{
+  color: #dfdfdf;
+  margin-left: 30px;
+  transition: all .2s linear;
+}
+
+.sinmargin{
+  margin-left: 0px;
+
+}
+
+#olvidar-contra{
+  margin-top: 20px;
+}
+
+
+#registrase{
+  margin-bottom: 20px;
+}
+
+.linea{
+  width: 136px;
+  height: 1px;
+  background-color: #393939;
+}
+
+label{
+  color: white;
+  width: 350px;
+}
+
+.divisor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letraO{
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.letraO p{
+  color: #393939;
+}
+
+.contenedor-iniciosesion{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-iniciosesion-interior{
+  display: flex;
+  background-color: #181a20;
+  width: 420px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 320px;
+  margin-top: 25px;
+}
+
+.contra{
+  margin-bottom: 20px;
+}
+
+.colorInput{
+  background-color: #0b0e11;
+  color: white;
+  
+}
+
+
+
+.colorInput:focus{
+  background-color: #0b0e11;
+  color: white;
+  border-color: #be32f5;
+}
+
+.contenedor-iniciosesion-izquierda{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: space-around;  
+}
+
+a{
+  color: wheat;
+}
+
+.link-iniciarSesion{
+  color: #dfdfdf;
+  margin-right: 10px;
+  transition: all .2s linear;
+}
+
+
+.link-iniciarSesion:hover{
+  
+  color:#f831ff !important
+}
+
+.seleccionado{
+  color:#f831ff
+}
+
+.link-nav:hover{
+  color:#f831ff !important
+}
+
+
+.main-resultadosContainer {
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container-box {
+  background-color: #181a20;
+  margin: 5px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.colorCaja {
+  background-color: #181a20;
+  margin: 5px;
+  width: 350px;
+  border-radius: 10px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.compentencia-filtro{
+  margin-right: 20px;
+
+}
+
+.imagenLogoJuego {
+  width: 60px;
+  height: 60px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.imagenLogoJuego2{
+  width: 80px;
+  height: 80px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+
+.imagenLogoJuego-tabla {
+  width: 33px;
+  height: 33px;
+    
+}
+
+
+.imagenLogoJuego-google {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 95px;
+}
+
+td{
+  text-align: center;
+}
+
+th{
+  text-align: center;
+  color: #dfdfdf;
+}
+
+.renglonTabla{
+  display: flex;
+  align-items: center;
+}
+
+.imagenLogoCompetencia {
+  width: 20px;
+  height: fit-content;
+}
+
+.header-proximoPartidoContainer-competencia{
+  align-self: center;
+}
+
+.body-proximoPartidoContainer{
+  height: 100px;
+  margin-top: 10px;
+}
+
+.main-container-caja {
+  background-color: #181a20;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 130px;
+}
+
+.main-container-caja > img {
+
+  transition: transform 200ms;
+
+}
+
+.main-container-caja:hover > img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.main-container-caja:hover {
+  cursor: pointer;
+}
+
+.izquierda {
+
+  display: flex;
+
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+
+      justify-content: space-around;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.derecha {
+
+  display: flex;
+
+          flex-direction: column;
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+          justify-content: space-between;
+
+          align-items: center;
+}
+
+
+.cajaFlotante{
+  position: absolute;
+  transition: .5s;
+  top: 100%;
+  background-color: white;
+}
+
+
+.cajaFlotante-interior{
+  width: 402px;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.compentencia {
+  margin-top: 7px;
+}
+
+.compentencia-F{
+  margin: 7px;
+  cursor: pointer
+}
+
+.nombre-competencia {
+  font-size: 12px;
+  display: inline;
+  margin-left: 3px;
+}
+
+.imagenContenedor {
+
+  display: flex;
+
+          flex-direction: column;
+
+          justify-content: center;
+}
+
+.imagenContenedor p {
+
+      align-self: center;
+}
+
+.imagenContenedor2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 200ms;
+  width: 98px;
+  height: 98px;
+}
+
+
+
+.imagenContenedor2 p {
+  align-self: center;
+}
+
+
+.imagenContenedor2:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+
+
+
+.interior-izquierda {
+  display: flex;
+
+          justify-content: space-evenly;
+
+          flex-grow: 3;
+}
+
+.horarios {
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 12px;
+}
+
+.horarios img {
+  width: 25px;
+  height: fit-content;
+  margin-right: 5px;
+}
+
+.contenedor-versus {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedor-versus-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+
+}
+
+
+.contenedor-versus-flex p {
+  font-size: 25px;
+}
+
+.contenedor-versus img {
+  margin-top: 17px;
+  width: 55px;
+}
+
+.BanderaHora {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.swal-modal {
+  background-color: #181a20;
+  border: 3px solid rgb(145, 71, 255)
+}
+
+.popup.active{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup.active .imagenLogoJuego2{
+  animation: entradaFoto .8 ease .5s;
+
+}
+
+@keyframes entradaFoto {
+    from {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+.popup{
+  display: flex;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+  flex-direction: column;
+  width: 600px;
+  height: 300px;
+  background-color: #393939;
+  justify-content: space-between;
+  border-radius: 5px;
+  opacity: 0;
+  transition: .3s ease all;
+  transform: scale(0.7);
+}
+
+
+.cajaCarrito{
+
+  width: 350px;
+  height: 248px;
+  background-color: rgb(57, 57, 57);
+  /*overflow-y: scroll;
+  overflow-x: hidden;*/
+  padding: 10px;
+
+}
+.cajaContenido::-webkit-scrollbar{
+
+  width: 5px;
+}
+.cajaContenido::-webkit-scrollbar-thumb{
+
+  background-color: #d4af37;
+}
+.cajaContenido{
+
+
+  width: 330px;
+  background-color: rgb(57, 57, 57);
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+.producto-nombre{
+  color: white;
+}
+.cajaContenido1{
+
+  height:50%;
+  width: 330px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.cajaContenido2{
+  display: flex;
+  justify-content: center;
+  
+}
+.cajaContenido3{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.botonCajaContenido3 button{
+  
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    background-color: #d4af37;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+   margin-right: 35px;
+   font-size: 11px;
+    font-weight: 400;
+    letter-spacing: .2em;
+    
+  
+}
+.botonCajaContenido3 button:hover {
+  background-color: white;
+  color: #d4af37;
+}
+.botonCajaContenido4 button{
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+ margin-right: 35px;
+ font-size: 11px;
+  font-weight: 400;
+  letter-spacing: .2em;
+  background-color: black;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+
+}
+.botonCajaContenido4 button:hover {
+  background-color: #d4af37;
+  color:white;
+}
+
+.total{
+height: 50px;
+width: 165px;
+background-color: white;
+padding-left: 30px;
+padding-top: 10px;
+}
+.precio{
+  height: 50px;
+  width: 165px;
+  background-color:gray;
+  padding-left: 30px;
+  padding-top: 10px;
+
+}
+#carrito{
+  margin-left: 10px;
+  padding-right: 0;
+  margin-top: 90px;
+  position: absolute;
+  margin-left: 10 0px;
+  
+}
+.logoCarrrito{
+
+  margin-left: 200px;
+}
+/*-------------estilos resumen de carrito JavaScript---*/
+.cajaRoja{
+  padding: 8px;
+  height: 220px;
+}
+.divPrincipal{
+ 
+  height:50px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+h4{
+  color: white;
+}
+
+
+.resumenCarrito{
+  height: 80px;
+  width: 50%;
+  display: flex;
+}
+
+.resumenCarrito img{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+.resumenCarrito h6{
+
+  margin-top: 30px;
+  
+}
+.resumenCarrito1{
+  height: 80px;
+  width: 13.3%;
+  margin-top: 30px;
+}
+
+.resumenCarrito2{
+  height: 80px;
+  width: 13.3%;
+ margin-top: 30px;
+}
+
+.resumenCarrito3{
+  height: 80px;
+  width: 13.3%;
+  
+}
+
+.divContenedorImagen img{
+  height: 80px;
+  width: 80px;
+}
+
+.divContenedorInfoProducto{
+
+  display: flex;
+  flex-direction: column;
+  height: 83,47px;
+  width: 240px;
+}
+
+.divInfo{
+
+  display: flex;
+  display: block;
+  height: 41,735px;
+  
+}
+.divInfo1{
+  padding-left: 10px;
+}
+
+.divInfo2{
+  padding-left: 10px;
+  height: 41,735px;
+}
+.divInfo2 h5{
+  margin-bottom: 0;
+}
+
+.popup-body-header h1{
+  font-size: 20px;
+}
+
+.overlay{
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+
+.overlay.active{
+  visibility: visible;
+}
+
+
+
+.BanderaHora img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.BanderaHora p {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+p {
+  color: #dfdfdf;
+  margin-bottom: 0px;
+  margin-left: 2px;
+}
+
+
+.popup-header{
+  display: flex;
+  justify-content: right;
+}
+.btn-cerrar-popup{
+  margin-right: 10px;
+  margin-top: 5px;
+  transition: .3s ease all;
+}
+.btn-cerrar-popup:hover{
+  color: rgb(145, 71, 255)
+}
+
+
+.proximoPartidoContainer {
+  background-color: #181a20;
+  margin: 15px;
+  width: 550px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.popup-footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.popup-body-main{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 25px;
+  margin-top: 15px;
+}
+
+.popup-body-footer-header h1{
+  font-size: 20px;
+}
+
+.popup-body-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.header-proximoPartidoContainer{
+  background-color: #393939;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.contenedorResultado{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+footer {
+  text-align: center;
+}
+
+.noticiaContainer {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+}
+
+.subContainer {
+  width: 800px;
+  background-color: #181a20;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.subContainer img {
+  width: 500px;
+  margin-top: 15px;
+  align-self: center;
+}
+
+.logoJuego {
+  width: 10%;
+}
+
+.contenedorLogoJuego {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subcontainerPersona {
+  background-color: #181a20;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.proximo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotoPersona {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.textoNoticia {
+  color: #dfdfdf;
+  text-align: center;
+  margin: 15px;
+}
+
+
+
+.main-carusel-imagen {
+  height: 400px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.letraB {
+  color: #f831ff;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.listaVertical {
+  display: block;
+}
+
+.distancia p{
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+.listaV {
+  display: block;
+  text-align: center;
+}
+
+.ContenedorNoticias{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caja-errores{
+  display: none;
+  width: auto;
+  height: auto;
+}
+
+.caja-errores p{
+  font-size: 15px;
+  color: red;
+}
+
+.contenedorHeaderProximoPartido{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorHeaderProximoPartido img{
+  margin-right: 10px;
+}
+
+.nombreEquipo {
+  font-size: 12px;
+}
+
+.tabla-color{
+  background-color: #181a20;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.contenedorTabla{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.contenedorTabla td{
+  color: #dfdfdf;
+}
+
+
+table tr:hover{
+  background-color: #0b0e11;
+}
+
+.menu-hamburguesa {
+  width: 24px;
+  height: 24px;
+}
+
+.header-fixed{
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.filtro{
+  background-color: #393939;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+
+@media screen and (max-width: 815px) {
+  .listaMenu{
+      display: none;
+  }
+
+  .header-container{
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #terceraCaja{
+      display: none;
+     
+  }
+
+
+   .main-resultadosContainer{
+   justify-content: space-around;
+}
+
+}
+
+
+@media screen and (max-width: 850px) {
+  .subContainer{
+    width: 600px;
+  }
+
+}
+
+
+@media screen and (max-width: 960px) {
+  .proximoPartidoContainer {
+    width: 600px;
+  }
+ 
+}
+
+
+@media screen and (max-width: 991px) {
+  .link-iniciarSesion{
+    display: block;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  .borde{
+    border-top: solid #393939;
+    margin-bottom: 5px;
+  }
+
+  .botonInicio{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+  }
+ 
+}
+
+@media screen and (max-width: 760px) {
+  .main-resultadosContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-carusel-imagen {
+    height: 250px;
+  }
+  #terceraCaja {
+    display: flex;
+  }
+  .proximoPartidoContainer {
+    width: 350px;
+  }
+
+  .proximo-container{
+    flex-direction: column;
+  }
+
+  #ultimo{
+    display: none;
+  }
+  
+}
+
+
+
+
+@media screen and (max-width: 660px) {
+  .subContainer{
+    width: 350px;
+  }
+  .subContainer img{
+    width: 300px;
+  }
+
+  .contenedor-iniciosesion-interior{
+    background-color: #0b0e11;
+  }
+
+  .compentencia-filtro p{
+    display: none;
+
+  }
+  .filtro{
+    justify-content: space-around;
+  }
+
+}
