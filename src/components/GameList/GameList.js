@@ -1,16 +1,14 @@
 import Game from "../Game/Game"
 import "./GameList.css"
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 
 const GameList = ({games}) => {
 
     return (
-        <Container>
-          <Row>
+        <div className="container">
+          <div className="row">
            {games.map(game =><Game key={game.id}  game={game}/>)}
-          </Row>
-        </Container>
+          </div>
+        </div>
        
          
       

@@ -1,5 +1,5 @@
 
-import Col from 'react-bootstrap/Col';
+
 import "./Game.css";
 
 const Game = ({game}) => {
@@ -12,7 +12,7 @@ const Game = ({game}) => {
 
 
     return (
-        <Col lg={4} md={6} sm={12}>
+        <div className="col-lg-4 col-md-6 col-sm-12">
         <div className="cajafuera">
                 <div className="header-proximoPartidoContainer">
                     <div className="header-proximoPartidoContainer-competencia">
@@ -65,7 +65,7 @@ const Game = ({game}) => {
                     </div>
                 </div>
             </div>
-            </Col>
+            </div>
     )
 
 }
